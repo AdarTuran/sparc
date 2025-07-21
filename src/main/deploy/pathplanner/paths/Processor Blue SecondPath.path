@@ -1,0 +1,71 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 5.268,
+        "y": 2.992
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 4.3958962538377575,
+        "y": 2.0889101340786826
+      },
+      "isLocked": false,
+      "linkedName": "FirstScoreProcessor"
+    },
+    {
+      "anchor": {
+        "x": 1.3759046052631578,
+        "y": 0.9652960526315791
+      },
+      "prevControl": {
+        "x": 1.345437269411871,
+        "y": 1.2134325905419097
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "SourceIntakeProcessor"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.6394453004622481,
+      "rotationDegrees": 53.0
+    }
+  ],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "PickupCoral",
+      "waypointRelativePos": 0.5121588089330016,
+      "endWaypointRelativePos": 1.6635235732009932,
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "PickupCoral"
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 3.5,
+    "maxAcceleration": 3.8,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 53.0
+  },
+  "reversed": false,
+  "folder": "Blue Processor",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 119.99999999999999
+  },
+  "useDefaultConstraints": false
+}

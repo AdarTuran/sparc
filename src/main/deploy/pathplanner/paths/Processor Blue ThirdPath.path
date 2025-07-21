@@ -1,0 +1,77 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.3759046052631578,
+        "y": 0.9652960526315791
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.3476973684238,
+        "y": 1.1362960526315793
+      },
+      "isLocked": false,
+      "linkedName": "SourceIntakeProcessor"
+    },
+    {
+      "anchor": {
+        "x": 4.998,
+        "y": 2.827
+      },
+      "prevControl": {
+        "x": 5.570970394736841,
+        "y": 1.7638980263157895
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "SecondScoreProcessor"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "PickupCoral",
+      "waypointRelativePos": 0.15,
+      "endWaypointRelativePos": 0.6000000000000003,
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "PickupCoral"
+        }
+      }
+    },
+    {
+      "name": "ElevatorL2",
+      "waypointRelativePos": 0.7035087719298251,
+      "endWaypointRelativePos": null,
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "ElevatorLevelTwo"
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 2.5,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 119.99999999999999
+  },
+  "reversed": false,
+  "folder": "Blue Processor",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 53.0
+  },
+  "useDefaultConstraints": true
+}
